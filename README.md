@@ -1,2 +1,0 @@
-# powereduca
-PowerEduca website.

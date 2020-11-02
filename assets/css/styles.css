@@ -1,0 +1,296 @@
+#powereduca-icons {
+  margin-top: 10px;
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.carousel-caption {
+  bottom: 220px;
+}
+.carousel-indicators > .active {
+  color: #5e8992;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  color: #5e8992;
+}
+.carousel-caption h5 {
+  font-size: 35px;
+  color: #5e8992;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  font-family: "Comfortaa", "Varela", cursive;
+}
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+  font-family: "Comfortaa", "Varela", cursive;
+  color: #5e8992;
+}
+.carousel-caption a {
+  text-transform: uppercase;
+  background: #262626;
+  padding: 10px 30px;
+  display: inline-block;
+  color: #5e8992;
+  margin-top: 15px;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #5e8992;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #5e8992;
+}
+.navbar-nav a {
+  font-family: "Comfortaa", "Varela", cursive;
+  font-size: 12px;
+  color: #5e8992;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navbar-light .navbar-brand {
+  color: #5e8992;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+/* xs */
+#powereduca-icons > div > a > img {
+  width: 70px;
+  height: auto;
+}
+/* sm */
+@media (min-width: 768px) {
+  #powereduca-icons > div > a > img {
+    width: 120px;
+  }
+  .carousel-item {
+    height: 80vh;
+  }
+}
+/* md */
+@media (min-width: 992px) {
+  #powereduca-icons > div > a > img {
+    width: 150px;
+  }
+  .carousel-item {
+    height: 80vh;
+  }
+}
+/* lg */
+@media (min-width: 1200px) {
+  #powereduca-icons > div > a > img {
+    width: 180px;
+  }
+  .carousel-item {
+    height: 80vh;
+  }
+}
+body {
+  text-align: center;
+  background: rgb(77, 118, 127);
+  background: linear-gradient(
+    180deg,
+    rgba(77, 118, 127, 1) 0%,
+    rgba(54, 86, 97, 1) 50%,
+    rgba(54, 87, 98, 1) 100%
+  );
+}
+
+.nossa-missao {
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(83, 121, 130, 1) 0%,
+    rgba(57, 89, 100, 1) 50%,
+    rgba(28, 52, 64, 1) 100%
+  );
+  color: #f5f3f4;
+  margin-top: -8px;
+}
+
+.melhor-equipe {
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(246, 171, 80, 1) 0%,
+    rgba(242, 135, 63, 1) 50%,
+    rgba(237, 102, 47, 1) 100%
+  );
+  color: #f5f3f4;
+}
+
+.team-clean-custom {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  font-family: "Comfortaa", "Varela", cursive;
+}
+
+.team-custom {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  font-family: "Comfortaa", "Varela", cursive;
+}
+
+.team-clean-nossa-historia {
+  padding-top: 130px;
+  font-family: "Comfortaa", "Varela", cursive;
+}
+
+.team-clean-melhor-equipe {
+  padding-top: 150px;
+  font-family: "Comfortaa", "Varela", cursive;
+  padding-bottom: 50px;
+}
+
+div > .intro {
+  padding-bottom: 100px;
+}
+
+.title {
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.nossa-historia {
+  background-color: #f3f3f5;
+  color: #1d3444;
+  margin-bottom: -110px;
+}
+
+.sobre {
+  padding-bottom: 30px;
+}
+
+.sobre-nos {
+  margin-top: -90px;
+}
+
+.depoimentos {
+  width: 100%;
+  background-image: url("assets/img/bg.png");
+  color: #000;
+}
+
+.depoimentos > .container {
+  width: 50%;
+}
+
+.depoimentos-texto {
+  padding-top: 20px;
+}
+
+.team-clean-depoimentos {
+  padding-top: 130px;
+  padding-bottom: 50px;
+  font-family: "Comfortaa", "Varela", cursive;
+}
+
+div > .depoimentos {
+  background-image: url("assets/img/bg.png");
+}
+
+.photos {
+  overflow: hidden;
+}
+
+.intro {
+  padding-bottom: 50px !important;
+}
+
+.image-team {
+  /* position: absolute; */
+  right: 10px;
+  top: 300%;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.nossa-missao-newsletter-subscribe {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Comfortaa", "Varela", cursive;
+}
+.nossa-missao-botao-enviar {
+  margin-left: -10px;
+  background-color: #ed662f;
+  border-color: #ed662f;
+  margin-bottom: 2px;
+  width: 30%;
+}
+
+.nossa-missao-input {
+  width: 70%;
+  display: inline;
+}
+
+.nossa-missao-intro {
+  padding-top: 12%;
+  padding-bottom: 10px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.body-footer {
+  padding-top: 150px;
+  font-family: "Comfortaa", "Varela", cursive;
+  padding-bottom: 50px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-images {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+}
+
+.align-images > img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.image-team-group {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+
+.copyright {
+  color: #5e8992;
+}
+
+@media (min-height: 600px) {
+  /* body {
+    color: red;
+  }
+
+  nav {
+    display: none !important;
+  } */
+}
